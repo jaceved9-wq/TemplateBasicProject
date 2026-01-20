@@ -14,4 +14,4 @@ int main() {
 
 
 }
-// y = x * tan(theta)
+// y = x * tan(theta) - ((g * (x * x))/2 * u * u * cos * cos(theta)
