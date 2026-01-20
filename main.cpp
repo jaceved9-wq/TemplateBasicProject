@@ -4,6 +4,6 @@ using namespace std;
 
 int main() {
 
-    const
+    const wall = 750
 
 }
