@@ -4,6 +4,8 @@ using namespace std;
 
 int main() {
 
-    const  = 750
+    const double wall = 75;
+    const double target = 150;
+    
 
 }
