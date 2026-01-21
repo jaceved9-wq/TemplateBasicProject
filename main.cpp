@@ -17,7 +17,9 @@ int main() {
     cin >> distanceFromWall;
     cin >> velocity;
     cin >> angleDeg;
-    
+
+    double theta = angleDeg * pi / 180.0;
+
 
 
 
