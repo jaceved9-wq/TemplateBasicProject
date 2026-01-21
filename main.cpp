@@ -52,13 +52,14 @@ int main() {
 
     // The Extra Fun Bit
 
-        cout << "Result: Direct Hit!" << endl;
+        cout << "Result: Direct Hit on Target!" << endl;
 
         cout << "Result: Overshot! Try again!" << endl;
 
         cout << "Result: Undershot! Try again!" << endl;
 
-        cout << 
+        cout << "Result: Direct Hit on Wall! Try again!" << endl;
+
 
 }
 
