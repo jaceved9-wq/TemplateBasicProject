@@ -8,8 +8,9 @@ int main() {
     const double targetLocation = 150;
     const double targetSpace = 50;
     const double launchStart = 0;
+    const double gForce = 32.17405;
 
-    
+
 
 }
 
