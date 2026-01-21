@@ -56,9 +56,10 @@ int main() {
     cout << "Target distance:" << targetStart << "-" << targetEnd << "feet." << endl;
 
     // The Extra Fun Bit
-    
+    if (clearsWall)
         cout << "Result: Direct Hit on Wall! Try again!" << endl;
-        
+
+    else if (r < target)
         cout << "Result: Overshot! Try again!" << endl;
 
         cout << "Result: Undershot! Try again!" << endl;
