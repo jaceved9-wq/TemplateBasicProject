@@ -70,5 +70,7 @@ int main() {
 
 
 }
-// Was able to hit the wall with
-// 
+// Was able to hit the wall with:
+// Distance from wall = 300
+// Velocity = 215
+// Angle = 80
