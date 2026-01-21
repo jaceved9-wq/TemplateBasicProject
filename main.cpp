@@ -9,10 +9,15 @@ int main() {
     const double targetSpace = 50;
     const double gForce = 32.17405;
 
+    //Inputs
     double distanceFromWall;
     double velocity;
     double angleDeg;
 
+    cin >> distanceFromWall;
+    cin >> velocity;
+    cin >> angleDeg;
+    
 
 
 
