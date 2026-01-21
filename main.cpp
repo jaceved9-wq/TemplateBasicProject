@@ -37,7 +37,7 @@ int main() {
     
     double y = x * t - (g * (x * x)) / (2.0 * (u * u) * (c * c));
 
-    double r = (u * u * sin(2.0 * theta)) / g;
+    double r = ((u * u) * sin(2.0 * theta)) / g;
 
     //Target distance from catapult
     double targetStart = distanceFromWall + targetLocation;
