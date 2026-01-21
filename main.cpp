@@ -41,9 +41,5 @@ int main() {
     cout << "Target distance:" << targetStart << "-" << targetEnd << "feet." << endl;
 
 
-
-
-
-
 }
 
