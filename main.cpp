@@ -51,7 +51,7 @@ int main() {
     cout << "Target distance:" << targetStart << "-" << targetEnd << "feet." << endl;
 
     // The Extra Fun Bit
-
+    if  
         cout << "Result: Direct Hit on Target!" << endl;
 
         cout << "Result: Overshot! Try again!" << endl;
