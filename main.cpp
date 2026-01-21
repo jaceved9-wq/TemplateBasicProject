@@ -23,7 +23,9 @@ int main() {
     double theta = angleDeg * (PI / 180.0);
 
     double x = distanceFromWall;
-    double 
+    double c = cos(theta); //storing cos(theta)
+    
+
 
 
 
