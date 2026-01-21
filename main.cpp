@@ -35,7 +35,7 @@ int main() {
     double g = gForce;
     double t = tan(theta); //storing tan(theta)
     
-    double y = x * t - (g * (x * x)) / (2.0 * (u * u) * c * c);
+    double y = x * t - (g * (x * x)) / (2.0 * (u * u) * (c * c));
 
     double r = (u * u * sin(2.0 * theta)) / g;
 
