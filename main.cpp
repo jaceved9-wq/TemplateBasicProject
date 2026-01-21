@@ -54,6 +54,10 @@ int main() {
 
         cout << "Result: Direct Hit!" << endl;
 
+        cout << "Result: Overshot! Try again!" << endl;
+
+        cout << "Result: Undershot! Try again!" << endl;
+
         cout << 
 
 }
