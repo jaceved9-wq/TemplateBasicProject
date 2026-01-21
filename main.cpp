@@ -8,7 +8,7 @@ int main() {
     const double targetLocation = 150;
     const double targetSpace = 50;
     const double gForce = 32.17405;
-    const double PI = std
+    const double PI = std::numbers::pi;
 
     //Inputs
     double distanceFromWall;
