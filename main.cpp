@@ -8,6 +8,7 @@ int main() {
     const double targetLocation = 150;
     const double targetSpace = 50;
     const double gForce = 32.17405;
+    const double PI = std
 
     //Inputs
     double distanceFromWall;
@@ -18,7 +19,7 @@ int main() {
     cin >> velocity;
     cin >> angleDeg;
 
-    double theta = angleDeg * pi / 180.0;
+    double theta = angleDeg * PI / 180.0;
 
 
 
