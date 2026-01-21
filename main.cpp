@@ -45,6 +45,7 @@ int main() {
     //Determine if the rock clears the wall
     bool clearsWall = y >= wall;
 
+    //Output
     cout << setprecision(4);
     cout << "Height at wall:" << y << "feet." << endl;
 
@@ -55,7 +56,7 @@ int main() {
     cout << "Target distance:" << targetStart << "-" << targetEnd << "feet." << endl;
 
     // The Extra Fun Bit
-    if
+    
         cout << "Result: Direct Hit on Target!" << endl;
 
         cout << "Result: Overshot! Try again!" << endl;
