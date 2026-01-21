@@ -59,11 +59,13 @@ int main() {
     if (clearsWall)
         cout << "Result: Direct Hit on Wall! Try again!" << endl;
 
-    else if (r < target)
+    else if (r > targetEnd)
         cout << "Result: Overshot! Try again!" << endl;
 
+    else if (r < targetStart)
         cout << "Result: Undershot! Try again!" << endl;
 
+    else
         cout << "Result: Direct Hit on Target!" << endl;
 
 
