@@ -50,8 +50,9 @@ int main() {
     cout << setprecision(4);
     cout << "Target distance:" << targetStart << "-" << targetEnd << "feet." << endl;
 
-    // --- The Extra Fun: --
-    
+    // The Extra Fun Bit
+
+        
 
 }
 
