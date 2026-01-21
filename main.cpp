@@ -38,8 +38,8 @@ int main() {
     
     cout << "Height at wall:" << y << "feet." << endl;
     cout << "Possible Range:" << r << "feet." << endl;
-    cout << "Target distance:" << targetStart << "-" targetEnd << "feet." << endl;
-
+    cout << "Target distance:" << targetStart << "-" << targetEnd << "feet." << endl;
+    
 
 
 
