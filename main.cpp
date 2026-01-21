@@ -40,9 +40,13 @@ int main() {
     double targetStart = distanceFromWall + targetLocation;
     double targetEnd = targetStart + targetSpace;
 
-    
+    cout << setprecision(4);
     cout << "Height at wall:" << y << "feet." << endl;
+
+    cout << setprecision(4)
     cout << "Possible Range:" << r << "feet." << endl;
+
+
     cout << "Target distance:" << targetStart << "-" << targetEnd << "feet." << endl;
 
 
