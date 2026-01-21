@@ -43,10 +43,10 @@ int main() {
     cout << setprecision(4);
     cout << "Height at wall:" << y << "feet." << endl;
 
-    cout << setprecision(4)
+    cout << setprecision(4);
     cout << "Possible Range:" << r << "feet." << endl;
 
-
+    cout << setprecision(4);
     cout << "Target distance:" << targetStart << "-" << targetEnd << "feet." << endl;
 
 
