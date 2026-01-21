@@ -22,6 +22,7 @@ int main() {
     //Angle conversion from degrees to radians
     double theta = angleDeg * (PI / 180.0);
 
+    //Equation variables to keep the equations clean
     double x = distanceFromWall;
     double c = cos(theta); //storing cos(theta)
     double u = velocity;
