@@ -15,8 +15,13 @@ int main() {
     double velocity;
     double angleDeg;
 
+    cout << "Enter distance from wall: ";
     cin >> distanceFromWall;
+
+    cout << "Enter velocity: ";
     cin >> velocity;
+
+    cout << "Enter angle: ";
     cin >> angleDeg;
 
     //Angle conversion from degrees to radians
