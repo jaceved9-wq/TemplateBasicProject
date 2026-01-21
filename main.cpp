@@ -43,7 +43,7 @@ int main() {
     double targetEnd = targetStart + targetSpace;
 
     //Determine if the rock clears the wall
-    double clearsWall = y >= wall;
+    bool clearsWall = y >= wall;
 
     cout << setprecision(4);
     cout << "Height at wall:" << y << "feet." << endl;
