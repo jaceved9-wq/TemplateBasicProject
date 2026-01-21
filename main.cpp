@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     // These are the constant values
-    //const double wall = 75;
+    const double wall = 75;
     const double targetLocation = 150;
     const double targetSpace = 50;
     const double gForce = 32.17405;
@@ -38,8 +38,12 @@ int main() {
 
     double r = (u * u * sin(2.0 * theta)) / g;
 
+    //Target distance from catapult
     double targetStart = distanceFromWall + targetLocation;
     double targetEnd = targetStart + targetSpace;
+
+    //Determine if the rock clears the wall
+    double clearsWall = y >= wall;
 
     cout << setprecision(4);
     cout << "Height at wall:" << y << "feet." << endl;
