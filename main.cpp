@@ -52,7 +52,9 @@ int main() {
 
     // The Extra Fun Bit
 
-        
+        cout << "Result: Direct Hit!" << endl;
+
+        cout << 
 
 }
 
