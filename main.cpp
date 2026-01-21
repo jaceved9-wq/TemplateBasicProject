@@ -19,6 +19,7 @@ int main() {
     cin >> velocity;
     cin >> angleDeg;
 
+    //Angle 
     double theta = angleDeg * PI / 180.0;
 
 
