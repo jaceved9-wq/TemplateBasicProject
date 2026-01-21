@@ -27,6 +27,7 @@ int main() {
     double u = velocity;
     double g = gForce;
     
+    dounb
 
 
 
