@@ -33,6 +33,8 @@ int main() {
     double r = (u * u * sin(2.0 * theta)) / g;
 
     double targetStart = distanceFromWall + targetLocation;
+    double targetEnd = targetStart + targetSpace;
+    
     
 
 
