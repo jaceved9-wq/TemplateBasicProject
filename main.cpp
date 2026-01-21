@@ -24,7 +24,7 @@ int main() {
 
     double x = distanceFromWall;
     double c = cos(theta); //storing cos(theta)
-    
+    double heightAtWall = 
 
 
 
