@@ -57,7 +57,7 @@ int main() {
 
     // The Extra Fun Bit
     if (clearsWall)
-        cout << "Result: Direct Hit on Wall! Try again!" << endl;
+        cout << "Result: Hit the Wall! Try again!" << endl;
 
     else if (r > targetEnd)
         cout << "Result: Overshot! Try again!" << endl;
