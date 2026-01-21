@@ -23,6 +23,7 @@ int main() {
     double theta = angleDeg * (PI / 180.0);
 
     double x = distanceFromWall;
+    double 
 
 
 
