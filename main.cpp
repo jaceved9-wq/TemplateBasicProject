@@ -34,9 +34,11 @@ int main() {
 
     double targetStart = distanceFromWall + targetLocation;
     double targetEnd = targetStart + targetSpace;
-    
-    
 
+    
+    cout << "Height at wall:" << y << "feet." << endl;
+    cout << "Possible Range:" << r << "feet." << endl;
+    cout << "Target distance:" << targetStart << "-" targetEnd << "feet." << endl;
 
 
 
